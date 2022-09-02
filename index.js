@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use('/', (req, res) => {
     res.json({
-        message: "Hola mundo desde Heroku."
+        message: "¡Hola Mundo! Desde Heroku"
     });
 });
 
